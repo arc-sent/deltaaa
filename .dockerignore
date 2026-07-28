@@ -1,0 +1,18 @@
+# Секреты и локальные данные — не тащим в образ.
+.env
+data/
+*.db
+*.db-wal
+*.db-shm
+token.key
+
+# Разработка/тесты в образе не нужны.
+tests/
+pytest.ini
+.pytest_cache/
+__pycache__/
+*.pyc
+
+.git/
+.gitignore
+README.md
